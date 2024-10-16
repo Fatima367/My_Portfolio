@@ -34,11 +34,11 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                href="/about"
+                href="/skills"
                 className="text-slate-50 hover:text-cyan-300 hover:border-b
          border-blue-300"
               >
-                About
+                Skills
               </Link>
             </li>
             <li>
@@ -48,6 +48,15 @@ const Footer = () => {
         hover:border-b border-blue-300"
               >
                 Projects
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/about"
+                className="text-slate-50 hover:text-cyan-300 
+        hover:border-b border-blue-300"
+              >
+                About
               </Link>
             </li>
             <li>

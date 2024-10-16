@@ -23,17 +23,17 @@ const About = () => {
           md:leading-10 p-6 text-md md:text-xl font-sans text-stone-50 tracking-wide"
         >
           <p className="font-serif">
-            "I’m a passionate Front-End Web Developer with expertise in crafting
-            visually appealing, responsive, and user-friendly websites. I
-            specialize in HTML, CSS, JavaScript, and modern frameworks like
-            Next.js and React, with a deep focus on Tailwind CSS for rapid,
-            customizable UI design. My goal is to turn creative ideas into
-            functional, high-performing websites that deliver seamless user
-            experiences across devices. With a strong eye for design and
-            attention to detail, I prioritize clean, maintainable code and
-            optimized performance. Whether building dynamic single-page
-            applications or robust websites, I aim to bridge the gap between
-            design and development. Let’s create something amazing together!"
+            "I'm a dedicated Front-End Web Developer with skills in building
+            visually attractive, responsive, and user-friendly websites. I work
+            with HTML, CSS, JavaScript, and modern frameworks like Next.js and
+            React. I also have strong experience with Tailwind CSS for building
+            fast, flexible, and scalable UIs. I thrive on turning creative
+            concepts into functional and high-performing websites that provide
+            seamless user experiences across all devices. I focus on clean,
+            maintainable code and improving performance. Whether it's dynamic
+            single-page apps or full websites, I strive to connect design with
+            development. Ready to build exceptional web experiences that exceed
+            expectations!"
           </p>
         </div>
       </section>
