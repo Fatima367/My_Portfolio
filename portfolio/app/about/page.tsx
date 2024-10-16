@@ -12,10 +12,10 @@ const About = () => {
           flex flex-col justify-center items-center text-center opacity-90"
       >
         <h1
-          className="text-2xl md:text-6xl font-bold font-Merienda text-white p-6
+          className="text-xl md:text-5xl font-bold font-Merienda text-white p-6
         hover:text-cyan-300"
         >
-          About Me
+          ABOUT ME
         </h1>
 
         <div

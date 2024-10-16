@@ -74,14 +74,29 @@ function Header() {
                     SKILLS
                   </Link>
                 </li>
-                <li
-                  className="pb-5 text-lg md:text-sm text-stone-50 font-md font-Merienda hover:font-bold
-                 hover:text-cyan-300 py-2 md:px-4 text-center "
-                >
+                <li className="relative group pb-5 text-lg md:text-sm text-stone-50 font-md font-Merienda
+                 hover:font-bold hover:text-cyan-300 py-2 md:px-4 text-center">
                   <Link href="./projects" onClick={() => setNavbar(!navbar)}>
                     PROJECTS
                   </Link>
+
+                  <ul className="absolute hidden group-hover:block bg-slate-800 text-stone-50 mt-2 w-40 
+                  rounded-lg shadow-lg">
+                    <li className="px-4 py-2 hover:bg-slate-700 hover:text-cyan-300">
+                      <Link href="/projects#hackathon">Hackathons</Link>
+                    </li>
+                    <li className="px-4 py-2 hover:bg-slate-700 hover:text-cyan-300">
+                      <Link href="/projects#nextjs">NextJs Projects</Link>
+                    </li>
+                    <li className="px-4 py-2 hover:bg-slate-700 hover:text-cyan-300">
+                      <Link href="/projects#ts-node">Typescript-Node Projects</Link>
+                    </li>
+                    <li className="px-4 py-2 hover:bg-slate-700 hover:text-cyan-300">
+                      <Link href="/projects#html,css&js">HTML,CSS & JS Project</Link>
+                    </li>
+                  </ul>
                 </li>
+
                 <li
                   className="pb-5 text-lg md:text-sm text-stone-50 font-md font-Merienda hover:font-bold
                  hover:text-cyan-300 py-2 md:px-4 text-center "

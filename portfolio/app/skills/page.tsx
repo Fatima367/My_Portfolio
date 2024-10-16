@@ -10,7 +10,7 @@ const Skills = () => {
       <section id="skills" className="text-center mx-auto container ">
         <div className="pb-10">
           <h1 className="text-3xl md:text-5xl font-Merienda font-semibold hover:text-cyan-300">
-            My Skills
+            MY SKILLS
           </h1>
         </div>
 
