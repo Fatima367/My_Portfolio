@@ -45,9 +45,9 @@ const Projects = () => {
             key={index}
             className="h-30 w-72 sm:w-72 bg-gradient-to-br hover:shadow-lg hover:shadow-black
              from-cyan-900 via-white to-cyan-900 shadow-md shadow-slate-950 rounded-xl 
-             transform hover:scale-105 transition-all duration-200"
+             transform hover:scale-105 transition-all duration-200 ring-1 ring-[#c1c2c2]"
           >
-            <div className="flex flex-col gap-y-4 items-center p-4">
+            <div className="flex flex-row gap-x-4 items-center p-4">
               <Image
                 src={project.img}
                 alt="Project Thumbnail"
@@ -57,8 +57,8 @@ const Projects = () => {
               />
               <Link href={project.link} target="_blank">
                 <p
-                  className="text-2xl text-slate-950 font-Merienda font-semibold hover:font-bold 
-                cursor-pointer"
+                  className="text-slate-950 text-lg font-Merienda font-semibold hover:font-bold 
+          cursor-pointer text-center sm:text-left"
                 >
                   {project.title}
                 </p>
@@ -134,9 +134,9 @@ const Projects = () => {
             key={index}
             className="h-30 w-72 sm:w-72 bg-gradient-to-br hover:shadow-lg hover:shadow-black
              from-cyan-900 via-white to-cyan-900 shadow-md shadow-slate-950 rounded-xl 
-             transform hover:scale-105 transition-all duration-200"
+             transform hover:scale-105 transition-all duration-200 ring-1 ring-[#c1c2c2]"
           >
-            <div className="flex flex-col gap-y-4 items-center p-4">
+            <div className="flex flex-row gap-x-4 items-center p-4">
               <Image
                 src={project.img}
                 alt="Project Thumbnail"
@@ -146,8 +146,8 @@ const Projects = () => {
               />
               <Link href={project.link} target="_blank">
                 <p
-                  className="text-lG text-slate-950 font-Merienda font-bold hover:font-extrabold 
-                cursor-pointer"
+                  className="text-slate-950 text-lg font-Merienda font-semibold hover:font-bold 
+          cursor-pointer text-center sm:text-left"
                 >
                   {project.title}
                 </p>
@@ -199,9 +199,9 @@ const Projects = () => {
             key={index}
             className="h-30 w-72 sm:w-72 bg-gradient-to-br hover:shadow-lg hover:shadow-black
              from-cyan-900 via-white to-cyan-900 shadow-md shadow-slate-950 rounded-xl 
-             transform hover:scale-105 transition-all duration-200"
+             transform hover:scale-105 transition-all duration-200 ring-1 ring-[#c1c2c2]"
           >
-            <div className="flex flex-col gap-y-4 items-center p-4">
+            <div className="flex flex-row gap-x-4 items-center p-4">
               <Image
                 src={project.img}
                 alt="Project Thumbnail"
@@ -211,8 +211,8 @@ const Projects = () => {
               />
               <Link href={project.link} target="_blank">
                 <p
-                  className="text-xl text-slate-950 font-Merienda font-semibold hover:font-bold 
-                cursor-pointer"
+                  className="text-slate-950 text-lg font-Merienda font-semibold hover:font-bold 
+          cursor-pointer text-center sm:text-left"
                 >
                   {project.title}
                 </p>
@@ -240,9 +240,9 @@ const Projects = () => {
             key={index}
             className="h-30 w-72 sm:w-72 bg-gradient-to-br hover:shadow-lg hover:shadow-black
              from-cyan-900 via-white to-cyan-900 shadow-md shadow-slate-950 rounded-xl 
-             transform hover:scale-105 transition-all duration-200"
+             transform hover:scale-105 transition-all duration-200 ring-1 ring-[#c1c2c2]"
           >
-            <div className="flex flex-col gap-y-4 items-center p-4">
+            <div className="flex flex-row gap-x-4 items-center p-4">
               <Image
                 src={project.img}
                 alt="Project Thumbnail"
@@ -252,8 +252,8 @@ const Projects = () => {
               />
               <Link href={project.link} target="_blank">
                 <p
-                  className="text-xl text-slate-950 font-Merienda font-semibold hover:font-bold 
-                cursor-pointer"
+                  className="text-slate-950 text-lg font-Merienda font-semibold hover:font-bold 
+          cursor-pointer text-center sm:text-left"
                 >
                   {project.title}
                 </p>

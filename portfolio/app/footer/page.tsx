@@ -1,117 +1,95 @@
 "use client";
+import { ArrowUpRightIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 import React from "react";
-import { SocialIcon } from "react-social-icons";
+import {
+  FaLinkedin,
+  FaDiscord,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0b0517] h-max w-screen ">
-      <div
-        className="container mx-auto p-4 pt-10 md:pt-20 flex flex-col 
-      md:flex-row md:justify-evenly md:space-x-10 items-center text-white"
-      >
-        <div className="text-center md:text-left mb-6 md:mb-0">
-          <div className=" font-bold text-5xl text-stone-50 font-Merienda">
-            F<span className="text-white font-Merienda">F</span>
-          </div>
-          <div className="p-2 text-xs md:text-sm tracking-wide">
-            <p className="font-sans font-light">
-              copyrights2024 | All Rights Reserved.
-            </p>
-          </div>
-        </div>
+    <footer className="bg-[#0b0517] text-white py-10 w-screen">
+       <div className="container mx-auto px-4 font-Merienda">
 
-        <div className="text-xl md:font-Merienda font-thin mb-6 md:mb-0">
-          <ul className="space-y-2 text-center md:text-left">
-            <li>
-              <Link
-                href="/"
-                className="text-slate-50 hover:text-cyan-300 hover:border-b
-         border-blue-300"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/skills"
-                className="text-slate-50 hover:text-cyan-300 hover:border-b
-         border-blue-300"
-              >
-                Skills
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/projects"
-                className="text-slate-50 hover:text-cyan-300 
-        hover:border-b border-blue-300"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/about"
-                className="text-slate-50 hover:text-cyan-300 
-        hover:border-b border-blue-300"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/contact"
-                className="text-slate-50
-         hover:text-cyan-300 hover:border-b border-blue-300"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+<div className="flex flex-col lg:flex-row justify-between lg:space-x-2">
 
-        <div className="text-xl md:font-Merienda font-thin">
-          <ul className="space-y-2 text-center md:text-left">
-            <li>
-              <Link
-                href=""
-                target="_blank"
-                className="text-slate-50
-         hover:text-cyan-300"
-              >
-                LinkedIn
-              </Link>
-            </li>
-            <li>
-              <Link
-                href=""
-                target="_blank"
-                className="text-slate-50
-         hover:text-cyan-300"
-              >
-                Discord
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <div className="mb-8 lg:mb-0">
+    <Link href={"/projects"}>
+    <h3 className="font-bold text-xl mb-4 hover:border-b">Projects</h3>
+    </Link>
+    <ul>
+      <li className="mb-2 hover:border-b ">
+        <Link href="/projects#hackathon">Hackathon Project</Link>
+      </li>
+      <li className="mb-2 hover:border-b">
+        <Link href="/projects#nextjs">Next.Js Projects</Link>
+      </li>
+      <li className="mb-2 hover:border-b">
+        <Link href="/projects#ts-node">Typescript-Node Projects</Link>
+      </li>
+      <li className="mb-2 hover:border-b">
+        <Link href="/projects#html,css&js">HTML, CSS & JS Project</Link>
+      </li>
+    </ul>
+  </div>
 
-      <div className="flex justify-center gap-2 pt-10 md:pt-12 pb-12">
-        <SocialIcon
-          url=""
-          target="_blank"
-          className="border-2 border-white rounded-full hover:scale-110 duration-300"
-          style={{ height: 40, width: 40 }}
-        />
+  <div className="mb-8 lg:mb-0">
+    <Link href={"/contact"}>
+    <h3 className="font-bold text-xl mb-4 hover:border-b">Contact</h3>
+    </Link>
+    <ul>
+      <li className="mb-2 hover:border-b">
+        <Link href="/">Home</Link>
+      </li>
+      <li className="mb-2 hover:border-b">
+        <Link href="/about">About</Link>
+      </li>
+      <li className="mb-2 hover:border-b">
+        <Link href="/contact">Contact</Link>
+      </li>
+    </ul>
+  </div>
 
-        <SocialIcon
-          url=""
-          target="_blank"
-          className="border-2 border-white rounded-full hover:scale-110 duration-300"
-          style={{ height: 40, width: 40 }}
-        />
-      </div>
+  <div className="mb-8 lg:mb-0">
+    <Link href={"/skills"}>
+    <h3 className="flex font-bold text-xl mb-4 hover:border-b">
+      Skills <ArrowUpRightIcon className="w-5 h-5" />
+      </h3>
+    </Link>
+  </div>
+
+  <div className="mb-8 lg:mb-0">
+    <h3 className="font-bold text-xl mb-4"></h3>
+    <div className="flex">
+      
+    </div>
+    <div className="flex space-x-4 mt-4 -ml-11 mr-10">
+      <Link href="https://www.linkedin.com/in/fatima-faisal-7086b330a/?trk=opento_sprofile_topcard">
+        <FaLinkedin className="text-2xl hover:text-blue-400 hover:scale-125" />
+      </Link>
+      <Link href='https://discord.com/channels/@me'>
+      <FaDiscord className="text-2xl hover:text-blue-400 hover:scale-125" />
+      </Link>
+      
+      
+      
+    </div>
+    <p className="mt-2"></p>
+    <p></p>
+  </div>
+</div>
+
+<div className="border-t border-[#FDE8FF] my-4"></div>
+
+<div className="flex flex-col items-center justify-center text-center">
+<div className="mb-4">
+<p className="font-extrabold text-4xl">FF</p>
+<p className="text-sm font-Poppins">&copy;Fatima Faisal's portfolio 2024 | All rights reserved.</p>
+</div>
+</div>
+
+</div>
     </footer>
   );
 };

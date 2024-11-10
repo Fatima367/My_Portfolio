@@ -9,7 +9,7 @@ export default function Home() {
     <main>
       <section
         className="bg-gradient-to-br from-slate-950 via-slate-700 to-slate-950
-        min-h-screen flex flex-col justify-center w-screen "
+       min-h-screen flex flex-col justify-center w-screen "
       >
         <div
           className="flex flex-col md:flex-row justify-center items-center container py-4 pb-20
