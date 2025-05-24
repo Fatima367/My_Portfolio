@@ -23,28 +23,32 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
         {[
           {
+            id: 1,
             title: "STATIC RESUME",
             link: "",
             img: "/images/projimg1.jpg",
           },
           {
+            id: 2,
             title: "DYNAMIC RESUME",
             link: "",
             img: "/images/projimg2.jpg",
           },
           {
+            id: 3,
             title: "EDITABLE RESUME",
             link: "",
             img: "/images/projimg3.jpg",
           },
           {
+            id: 4,
             title: "SHARABLE RESUME",
             link: "",
             img: "/images/projimg4.jpg",
           },
-        ].map((project, index) => (
+        ].map((project) => (
           <div
-            key={index}
+            key={project.id}
             className="flex flex-wrap justify-center items-center"
           >
             <div
@@ -83,62 +87,71 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
         {[
           {
+            id: 5,
             title: "MOVIE SEARCH APP",
             link: "",
             description: "",
             img: "/images/projimg5.jpg",
           },
           {
+            id: 6,
             title: "COUNTDOWN TIMER",
             link: "",
             description: "",
             img: "/images/projimg6.jpg",
           },
           {
+            id: 7,
             title: "WEATHER APP",
             link: "",
             description: "",
             img: "/images/projimg7.jpg",
           },
           {
+            id: 8,
             title: "BIRTHDAY WISH APP",
             link: "",
             description: "",
             img: "/images/projimg8.jpg",
           },
           {
+            id: 9,
             title: "NUMBER GUESSING GAME",
             link: "",
             description: "",
             img: "/images/projimg9.jpg",
           },
           {
+            id: 10,
             title: "DIGITAL CLOCK APP",
             link: "",
             description: "",
             img: "/images/projimg10.jpg",
           },
           {
+            id: 11,
             title: "RANDOM JOKE GENERATOR",
             link: "",
             description: "",
             img: "/images/projimg11.jpg",
           },
           {
+            id: 12,
             title: "COLOR PICKER APP",
             link: "",
             description: "",
             img: "/images/projimg12.jpg",
           },
           {
+            id: 13,
             title: "PASSWORD GENERATOR APP",
             link: "",
             description: "",
             img: "/images/projimg13.jpg",
           },
-        ].map((project, index) => (
+        ].map((project) => (
           <div
-            key={index}
+            key={project.id}
             className="flex flex-wrap justify-center items-center"
           >
             <div
@@ -177,38 +190,43 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
         {[
           {
+            id: 14,
             title: "ATM PROJECT",
             link: "",
             description: "",
             img: "/images/projimg14.jpg",
           },
           {
+            id: 15,
             title: "CURRENCY CONVERTER",
             link: "",
             description: "",
             img: "/images/projimg15.jpg",
           },
           {
+            id: 16,
             title: "NUMBER GUESSING GAME",
             link: "",
             description: "",
             img: "/images/projimg16.jpg",
           },
           {
+            id: 17,
             title: "SIMPLE CALCULATOR",
             link: "",
             description: "",
             img: "/images/projimg17.jpg",
           },
           {
+            id: 18,
             title: "TODO LIST",
             link: "",
             description: "",
             img: "/images/projimg18.jpg",
           },
-        ].map((project, index) => (
+        ].map((project) => (
           <div
-            key={index}
+            key={project.id}
             className="flex flex-wrap justify-center items-center"
           >
             <div
@@ -247,14 +265,15 @@ const Projects = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mx-4 md:mx-10">
         {[
           {
+            id: 19,
             title: "ONLINE CALCULATOR",
             link: "",
             description: "",
             img: "/images/projimg19.jpg",
           },
-        ].map((project, index) => (
+        ].map((project) => (
           <div
-            key={index}
+            key={project.id}
             className="flex flex-wrap justify-center items-center"
           >
             <div
